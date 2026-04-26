@@ -237,7 +237,6 @@ python grover_algo.py
 
 - [Qiskit Official Documentation](https://qiskit.org/documentation/)
 - [IBM Quantum Composer](https://quantum-computing.ibm.com/composer)
-- [Qiskit Tutorials](https://github.com/Qiskit/qiskit-tutorials)
 
 ## Contributing
 
