@@ -216,18 +216,6 @@ Then navigate to any `demo.ipynb` or `*_Algorithm.ipynb` file and run the cells.
 python grover_algo.py
 ```
 
-Output:
-```
-Marked item |w> = |10110>
-Circuit diagram:
-[quantum circuit visualization]
-Measurement counts:
-{'10110': 980, '00000': 20}
-Most common measurement result: |10110>
-Marked state |w> = |10110>
-Success! The most common result is the marked state |w>.
-```
-
 ## Algorithm Complexity Summary
 
 | Algorithm | Classical | Quantum | Input | Application |
