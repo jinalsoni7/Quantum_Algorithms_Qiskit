@@ -218,14 +218,14 @@ python grover_algo.py
 
 ## Algorithm Complexity Summary
 
-| Algorithm | Classical | Quantum | Input | Application |
+| Problem | Classical Queries | Quantum Algorithm | Quantum Queries | Asymototic Speedup |
 |-----------|-----------|---------|-------|-------------|
-| Deutsch | O(2) | O(1) | 1 bit | Constant vs Balanced |
-| Deutsch-Jozsa | O(2^n) | O(n) | n bits | Constant vs Balanced |
-| Bernstein-Vazirani | O(n) | O(n) | n bits | Period Finding |
-| Simon | O(2^n) | O(n log n) | n bits | Period Finding |
-| Grover | O(N) | O(√N) | log₂(N) | Search |
-| Shor | O(n³ log n) | O(n³) | log₂(N) | Factorization |
+| n-bit Parity | n | Deutsch | n/2 | None |
+| Constant vs Balanced | 1 | Deutsch-Jozsa | 1 | None |
+| Dot Product String | n | Bernstein-Vazirani | 1 | Plynomial |
+| XOR Mask | 2^(n/2) | Simon | n | Exponential |
+| Unstructured Searching | N | Grover | √N | Quadratic |
+| Factorization | n³ log n | Shor | n^3 | Polynomial |
 
 ## Learning Path
 
