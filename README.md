@@ -225,7 +225,7 @@ python grover_algo.py
 | Dot Product String | n | Bernstein-Vazirani | 1 | Plynomial |
 | XOR Mask | 2^(n/2) | Simon | n | Exponential |
 | Unstructured Searching | N | Grover | √N | Quadratic |
-| Factorization | n³ log n | Shor | n^3 | Polynomial |
+| Factorization | n³ log n | Shor | n³ | Polynomial |
 
 ## Learning Path
 
