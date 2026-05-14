@@ -230,7 +230,7 @@ python grover_algo.py
 ## Learning Path
 
 1. **Beginners:** Start with Hello World and Quantum/Phase Oracles
-2. **Intermediate:** Move to Deutsch and Deutsch-Jozsa algorithms
+2. **Intermediate:** Move to Deutsch, Deutsch-Jozsa and Bernstein-Vazirani algorithms
 3. **Advanced:** Explore Simon's, Grover's, and Shor's algorithms
 
 ## Resources
