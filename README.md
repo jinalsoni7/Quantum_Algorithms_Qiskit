@@ -221,7 +221,7 @@ python grover_algo.py
 | Problem | Classical Queries | Quantum Algorithm | Quantum Queries | Asymototic Speedup |
 |-----------|-----------|---------|-------|-------------|
 | n-bit Parity | n | Deutsch | n/2 | None |
-| Constant vs Balanced | 1 | Deutsch-Jozsa | 1 | None |
+| Constant vs Balanced | 2^(n-1) + 1 | Deutsch-Jozsa | 1 | Exponential |
 | Dot Product String | n | Bernstein-Vazirani | 1 | Plynomial |
 | XOR Mask | 2^(n/2) | Simon | n | Exponential |
 | Unstructured Searching | N | Grover | √N | Quadratic |
